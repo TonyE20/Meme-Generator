@@ -1,9 +1,10 @@
+const section = document.querySelector('#section');
 const h1 = document.createElement('h1');
 h1.innerText = 'Create Your Own MEMEZ!!!';
 const h3 = document.createElement('h3');
 h3.innerText = 'Please Complete Form';
-document.body.prepend(h3);
-document.body.prepend(h1);
+section.appendChild(h3);
+section.appendChild(h1);
 const removing = document.createElement('button');
 removing.innerText = 'remove image';
 removing.setAttribute('width', '60px');
